@@ -1,0 +1,12 @@
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Shared/bin/Debug/net7.0/PaymentContext.Shared.deps.json
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Shared/bin/Debug/net7.0/PaymentContext.Shared.dll
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Shared/bin/Debug/net7.0/PaymentContext.Shared.pdb
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Shared/obj/Debug/net7.0/PaymentContext.Shared.csproj.AssemblyReference.cache
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Shared/obj/Debug/net7.0/PaymentContext.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Shared/obj/Debug/net7.0/PaymentContext.Shared.AssemblyInfoInputs.cache
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Shared/obj/Debug/net7.0/PaymentContext.Shared.AssemblyInfo.cs
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Shared/obj/Debug/net7.0/PaymentContext.Shared.csproj.CoreCompileInputs.cache
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Shared/obj/Debug/net7.0/PaymentContext.Shared.dll
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Shared/obj/Debug/net7.0/refint/PaymentContext.Shared.dll
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Shared/obj/Debug/net7.0/PaymentContext.Shared.pdb
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Shared/obj/Debug/net7.0/ref/PaymentContext.Shared.dll

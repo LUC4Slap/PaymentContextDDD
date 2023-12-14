@@ -1,0 +1,15 @@
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Domain/bin/Debug/net7.0/PaymentContext.Domain.deps.json
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Domain/bin/Debug/net7.0/PaymentContext.Domain.dll
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Domain/bin/Debug/net7.0/PaymentContext.Domain.pdb
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Domain/obj/Debug/net7.0/PaymentContext.Domain.csproj.AssemblyReference.cache
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Domain/obj/Debug/net7.0/PaymentContext.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Domain/obj/Debug/net7.0/PaymentContext.Domain.AssemblyInfoInputs.cache
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Domain/obj/Debug/net7.0/PaymentContext.Domain.AssemblyInfo.cs
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Domain/obj/Debug/net7.0/PaymentContext.Domain.csproj.CoreCompileInputs.cache
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Domain/obj/Debug/net7.0/PaymentContext.Domain.dll
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Domain/obj/Debug/net7.0/refint/PaymentContext.Domain.dll
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Domain/obj/Debug/net7.0/PaymentContext.Domain.pdb
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Domain/obj/Debug/net7.0/ref/PaymentContext.Domain.dll
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Domain/bin/Debug/net7.0/PaymentContext.Shared.dll
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Domain/bin/Debug/net7.0/PaymentContext.Shared.pdb
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Domain/obj/Debug/net7.0/PaymentContext.Domain.csproj.CopyComplete
