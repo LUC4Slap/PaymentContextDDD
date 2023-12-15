@@ -8,6 +8,10 @@ public class Name : ValueObjct
     {
         FirsName = firsName;
         LastName = lastName;
+        if (string.IsNullOrEmpty(FirsName))
+        {
+            AddNotification("Name.FirsName", "Nome inválido");
+        }
     }
 
     public string FirsName { get; private set; }

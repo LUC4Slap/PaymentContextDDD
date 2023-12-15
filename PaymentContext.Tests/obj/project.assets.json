@@ -8,6 +8,18 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "Flunt/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Flunt.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Flunt.dll": {}
+        }
+      },
       "Microsoft.CodeCoverage/17.3.2": {
         "type": "package",
         "compile": {
@@ -1906,6 +1918,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
+          "Flunt": "1.0.2",
           "PaymentContext.Shared": "1.0.0"
         },
         "compile": {
@@ -1918,6 +1931,9 @@
       "PaymentContext.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Flunt": "1.0.2"
+        },
         "compile": {
           "bin/placeholder/PaymentContext.Shared.dll": {}
         },
@@ -1977,6 +1993,18 @@
         "coverlet-icon.png",
         "coverlet.collector.3.1.2.nupkg.sha512",
         "coverlet.collector.nuspec"
+      ]
+    },
+    "Flunt/1.0.2": {
+      "sha512": "HtQBErf6cJewdP7LzLJEyehePdPKP4ieYoQP8DpiXB6qs1TeuHVF38Bw8TZzz9t7r2j+SWFRoMsU5oJvzSOeBg==",
+      "type": "package",
+      "path": "flunt/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "flunt.1.0.2.nupkg.sha512",
+        "flunt.nuspec",
+        "lib/netstandard1.3/Flunt.dll"
       ]
     },
     "Microsoft.CodeCoverage/17.3.2": {
@@ -6798,6 +6826,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Flunt >= 1.0.2",
       "MSTest.TestAdapter >= 2.2.10",
       "MSTest.TestFramework >= 2.2.10",
       "Microsoft.NET.Test.Sdk >= 17.3.2",
@@ -6850,6 +6879,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Flunt": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
           "MSTest.TestAdapter": {
             "target": "Package",
             "version": "[2.2.10, )"
