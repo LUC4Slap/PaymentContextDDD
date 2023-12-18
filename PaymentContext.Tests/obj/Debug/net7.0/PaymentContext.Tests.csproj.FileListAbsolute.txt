@@ -100,3 +100,4 @@
 /home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Tests/obj/Debug/net7.0/PaymentContext.Tests.pdb
 /home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Tests/obj/Debug/net7.0/PaymentContext.Tests.genruntimeconfig.cache
 /home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Tests/obj/Debug/net7.0/ref/PaymentContext.Tests.dll
+/home/lucas/Área de Trabalho/projetosBalta/aspnet/PaymentContext/PaymentContext.Tests/bin/Debug/net7.0/Flunt.dll

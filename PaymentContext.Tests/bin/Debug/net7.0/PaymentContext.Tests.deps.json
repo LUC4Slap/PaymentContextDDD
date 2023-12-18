@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "PaymentContext.Tests/1.0.0": {
         "dependencies": {
+          "Flunt": "1.0.2",
           "MSTest.TestAdapter": "2.2.10",
           "MSTest.TestFramework": "2.2.10",
           "Microsoft.NET.Test.Sdk": "17.3.2",
@@ -21,6 +22,17 @@
         }
       },
       "coverlet.collector/3.1.2": {},
+      "Flunt/1.0.2": {
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Flunt.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.2.0"
+          }
+        }
+      },
       "Microsoft.CodeCoverage/17.3.2": {
         "runtime": {
           "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {
@@ -1131,6 +1143,7 @@
       },
       "PaymentContext.Domain/1.0.0": {
         "dependencies": {
+          "Flunt": "1.0.2",
           "PaymentContext.Shared": "1.0.0"
         },
         "runtime": {
@@ -1138,6 +1151,9 @@
         }
       },
       "PaymentContext.Shared/1.0.0": {
+        "dependencies": {
+          "Flunt": "1.0.2"
+        },
         "runtime": {
           "PaymentContext.Shared.dll": {}
         }
@@ -1164,6 +1180,13 @@
       "sha512": "sha512-wuLDIDKD5XMt0A7lE31JPenT7QQwZPFkP5rRpdJeblyXZ9MGLI8rYjvm5fvAKln+2/X+4IxxQDxBtwdrqKNLZw==",
       "path": "coverlet.collector/3.1.2",
       "hashPath": "coverlet.collector.3.1.2.nupkg.sha512"
+    },
+    "Flunt/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HtQBErf6cJewdP7LzLJEyehePdPKP4ieYoQP8DpiXB6qs1TeuHVF38Bw8TZzz9t7r2j+SWFRoMsU5oJvzSOeBg==",
+      "path": "flunt/1.0.2",
+      "hashPath": "flunt.1.0.2.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.3.2": {
       "type": "package",

@@ -30,6 +30,7 @@ public class Student : Entity
 
     public void AddSubscription(Subscription subscription)
     {
+//        if (subscription.Payments.Count == 0)
         var hasSUbscriptionActive = false;
         foreach (var sub in _subscriptions)
         {
@@ -37,13 +38,15 @@ public class Student : Entity
                 hasSUbscriptionActive = true;
         }
 
-//        AddNotifications(new Contract()
-//            .Requires()
-//            .IsFalse(hasSUbscriptionActive, "Studand.Subscriptions", "Você ja tem uma assinatura ativa")
-//        );
+        AddNotifications(new Contract()
+            .Requires()
+            .IsFalse(hasSUbscriptionActive, "Studand.Subscriptions", "Você ja tem uma assinatura ativa")
+            .AreEquals(0, subscription.Payments.Count, "Studand.Subscription.Payments",
+                "Esta Assinatura não possui pagamento")
+        );
 
         // alternativa
-        if (hasSUbscriptionActive)
-            AddNotification("Studand.Subscriptions", "Você ja tem uma assinatura ativa");
+//        if (hasSUbscriptionActive)
+//            AddNotification("Studand.Subscriptions", "Você ja tem uma assinatura ativa");
     }
 }

@@ -22,7 +22,7 @@ public abstract class Payment : Entity
         AddNotifications(
             new Contract()
                 .Requires()
-                .IsGreaterThan(0, Total, "Payment.Total", "O total não pode ser zero")
+                .IsLowerOrEqualsThan(0, Total, "Payment.Total", "O total não pode ser zero")
                 .IsGreaterOrEqualsThan(0, TotalPaid, "Payment.TotalPaid", "O pago é menor que o valor do pagamento")
         );
     }
