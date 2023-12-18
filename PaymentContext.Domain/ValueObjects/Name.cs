@@ -13,10 +13,10 @@ public class Name : ValueObjct
         AddNotifications(
             new Contract()
                 .Requires()
-                .HasMinLen(firsName, 3, "Name.FirsName", "Nome deve conter pelo menos 3 caractres")
-                .HasMinLen(lastName, 3, "Name.lastName", "Sobrenome deve conter pelo menos 3 caractres")
-                .HasMaxLen(firsName, 40, "Name.FirsName", "Nome deve conter até 40 caractres")
-                .HasMaxLen(lastName, 40, "Name.lastName", "Sobrenome deve conter até 40 caractres")
+                .HasMinLen(FirsName, 3, "Name.FirsName", "Nome deve conter pelo menos 3 caractres")
+                .HasMinLen(LastName, 3, "Name.lastName", "Sobrenome deve conter pelo menos 3 caractres")
+                .HasMaxLen(FirsName, 40, "Name.FirsName", "Nome deve conter até 40 caractres")
+                .HasMaxLen(LastName, 40, "Name.lastName", "Sobrenome deve conter até 40 caractres")
         );
     }
 
